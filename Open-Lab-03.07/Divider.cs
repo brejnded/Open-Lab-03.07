@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Open_Lab_03._07
 {
@@ -6,7 +6,13 @@ namespace Open_Lab_03._07
     {
         public bool EqualSlices(int total, int people, int each)
         {
+            if (people * each > total)
+            {
+                return false;
+            }
+            else { return true; }
             throw new NotImplementedException();
         }
     }
+
 }
