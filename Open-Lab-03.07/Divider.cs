@@ -11,7 +11,6 @@ namespace Open_Lab_03._07
                 return false;
             }
             else { return true; }
-            throw new NotImplementedException();
         }
     }
 
